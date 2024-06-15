@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
-    "jsx": "preserve",
     "target": "es5",
     "lib": [
       "dom",
@@ -13,10 +11,12 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "jsx": "preserve",
     "incremental": true,
     "plugins": [
       {

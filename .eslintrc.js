@@ -22,40 +22,6 @@ module.exports = {
     },
   },
   rules: {
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        ignoreRestSiblings: true,
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-        caughtErrorsIgnorePattern: '^_',
-      },
-    ],
-    '@typescript-eslint/no-empty-interface': [
-      'error',
-      {
-        allowSingleExtends: true,
-      },
-    ],
-    '@typescript-eslint/no-shadow': [
-      'error',
-      {
-        ignoreOnInitialization: true,
-      },
-    ],
-    'import/newline-after-import': 'error',
-    'react/jsx-uses-react': 'error',
-    'react/react-in-jsx-scope': 'error',
-    'unicorn/filename-case': [
-      'error',
-      {
-        cases: {
-          kebabCase: true, // personal style
-          pascalCase: true,
-        },
-      },
-    ],
-
     // Deactivated
     '@typescript-eslint/dot-notation': 'off', // paths are used with a dot notation
     '@typescript-eslint/no-misused-promises': 'off', // onClick with async fails
